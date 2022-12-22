@@ -183,8 +183,8 @@ h5{
 /* If the screen size is smaller than 1000px*/
 @media (max-width: 1000px) {
   .embed-size-custom{
-    height: 40vh !important; 
-    width: 40rem !important;
+    height: 47vh !important; 
+    width: 47rem !important;
   }
   #name {
     font-size: 350%;
@@ -193,8 +193,18 @@ h5{
 /* If the screen size is smaller than 800px*/
 @media (max-width: 800px) {
   .embed-size-custom{
-    height: 24vh !important; 
-    width: 24rem !important;
+    height: 33vh !important; 
+    width: 35rem !important;
+  }
+  #name {
+    font-size: 300%;
+  }
+}
+/* If the screen size is smaller than 600px*/
+@media (max-width: 600px) {
+  .embed-size-custom{
+    height: 27vh !important; 
+    width: 28rem !important;
   }
   #name {
     font-size: 300%;
@@ -203,8 +213,28 @@ h5{
 /* If the screen size is smaller than 500px*/
 @media (max-width: 500px) {
   .embed-size-custom{
-    height: 24vh !important; 
-    width: 24rem !important;
+    height: 25vh !important; 
+    width: 26rem !important;
+  }
+  #name {
+    font-size: 250%;
+  }
+}
+/* If the screen size is smaller than 450px*/
+@media (max-width: 450px) {
+  .embed-size-custom{
+    height: 21vh !important; 
+    width: 22rem !important;
+  }
+  #name {
+    font-size: 250%;
+  }
+}
+/* If the screen size is smaller than 380px*/
+@media (max-width: 380px) {
+  .embed-size-custom{
+    height: 18vh !important; 
+    width: 20rem !important;
   }
   #name {
     font-size: 250%;
