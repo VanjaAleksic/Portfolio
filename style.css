@@ -220,13 +220,3 @@ h5{
     font-size: 250%;
   }
 }
-/* If the screen size is smaller than 450px*/
-@media (max-width: 450px) {
-  .embed-size-custom{
-    height: 23vh !important; 
-    width: 24rem !important;
-  }
-  #name {
-    font-size: 250%;
-  }
-}
