@@ -10,19 +10,27 @@ html, body{
   height: 100vh;
   margin: auto;
   opacity: 1;
-  background-image: url("Images/website_vid2.gif");
+  background-image: url("Images/landing_page_city.webp");
   top: 0;
   display: table;
   background-size: cover;
   background-position:center;
 }
 
-
 .in1{
   display: table-cell;
   vertical-align: middle;
   width: 100%;
   max-width: none;
+  padding-bottom: 15vh;
+}
+
+a:visited{
+  color:white;
+}
+
+a:hover{
+  color: gray !important;
 }
 
 .row>*{
@@ -61,7 +69,6 @@ img{
   color: white;
   pointer-events: auto;
   background-color: white;
-
 }
 
 .modal{
@@ -165,16 +172,9 @@ h5{
 
 /* If the screen size is smaller than 1000px*/
 @media (max-width: 1001px) {
-  #responsive-text-custom {
-    font-size: 100px;
-  }
 }
 /* If the screen size is smaller than 1000px*/
 @media (max-width: 1000px) {
-  #responsive-text-custom {
-    font-size: 80px;
-  }
-
   .embed-size-custom{
     height: 40vh !important; 
     width: 40rem !important;
@@ -182,12 +182,8 @@ h5{
 }
 /* If the screen size is smaller than 600px*/
 @media (max-width: 500px) {
-  #responsive-text-custom {
-    font-size: 65px;
-  }
-
   .embed-size-custom{
-    height: 20vh !important; 
-    width: 20rem !important;
+    height: 24vh !important; 
+    width: 24rem !important;
   }
 }

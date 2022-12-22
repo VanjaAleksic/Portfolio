@@ -7,6 +7,6 @@ document.addEventListener("click",function (e){
     }
   })
   
-  var year = new Date().getFullYear();
-  const footer = document.getElementById("footer-time");
-  footer.innerHTML = year + " Vanja Aleksić";
+var year = new Date().getFullYear();
+const footer = document.getElementById("footer-time");
+footer.innerHTML = year + " Vanja Aleksić";

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Portfolio">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -13,36 +14,37 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse justify-content-md-center">
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#">HOME</a>
+          <a class="nav-link" href="#" style="padding-inline: 18px;">HOME</a>
         </li>
-        <li class="nav-item" style="margin-left: 4vh">
-          <a class="nav-link" href="#portfolio">GAME</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio" style="padding-inline: 18px;">GAME</a>
         </li>
-        <li class="nav-item" style="margin-left: 4vh">
-          <a class="nav-link" href="#web-projects">WEB PROJECTS</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#web-projects" style="padding-inline: 18px;">WEB PROJECTS</a>
         </li>
-        <li class="nav-item" style="margin-left: 4vh">
-          <a class="nav-link" href="#experience">EXPERIENCE</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience" style="padding-inline: 18px;">EXPERIENCE</a>
         </li>
       </ul>
     </div>
+  </div>
   </nav>
 
-  <!-- Introduction text -->
-    <section class="b1">
+  <!-- Introduction text   -->
+    <section class="b1" id="b2">
         <div class="in1">
             <div class="content">
                 <h1>Vanja Aleksić</h1>
                 <br>
-                <h2>- Game and Web developer</h2>
+                <h2>- Game and Web developer</h2>    
             </div>
         </div>
     </section>
@@ -55,7 +57,7 @@
     <div class="row mx-0">
       <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12 col-l-12">
         <div class="content underline">
-          <h1 style="text-align: center; color: rgb(219, 219, 219) !important;">STEGOVICH</h1>
+          <h1 style="text-align: center; color: rgb(219, 219, 219) !important;">STEGOVICH <a href="https://twitter.com/Stegovich" target="_blank"><i class="fa-brands fa-square-twitter"></i></a> </h1>
         </div>  
           <br>
             <p class="card-text light-gray" style="text-align: center;">Is a First-person shooter video game being developed by me and my brother in Unreal Engine 5.</p>
@@ -71,7 +73,6 @@
       </div>
     </div>
   </div>
-  
 
   <!-- Image gallery -->
   <section class="gallery min-vh-100">
@@ -164,7 +165,7 @@
           <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4 col-l-4">
             <div class="card mx-auto" style="width: 18rem; height: 90%;  background-color: rgb(190, 190, 190, 0.212);">
               <a href="https://github.com/VanjaAleksic/Python-webscraper" target="_blank">
-                <img src="Images/python_webscraper.webp" class="card-img-top border border-dark shadow mask picture" alt="Card image cap"/>
+                <img src="Images/python_webscraper.webp" class="card-img-top border border-dark shadow mask picture" target="_blank" alt="Card image cap"/>
               </a>
               <div class="card-body">
                 <h5 class="card-title">Python webscraper</h5>
@@ -178,13 +179,13 @@
           <!-- PRODUCT SORTER-->
           <div class="col-xs-12 col-sm-12 col-md-12 col-xl-4 col-l-4">
             <div class="card mx-auto" style="width: 18rem; height: 90%; background-color: rgb(190, 190, 190, 0.212);">
-              <a href="https://productsorter.herokuapp.com/index.php" taget="_blank">
+              <a href="https://youtu.be/ye_4sV1Dyu8" target="_blank">
                 <img class="card-img-top border border-dark shadow picture" src="Images/productsorter_website.webp" alt="Card image cap"></a>
               <div class="card-body">
-                <h5 class="card-title">E-shop catalogue</h5>
+                <h5 class="card-title">E-shop catalogue (OFFLINE)</h5>
                 <p class="card-text" style="color: rgba(211, 211, 211, 0.658);">2021</p>
                 <p class="card-text" style="color: rgb(219, 219, 219) !important;" ><i class="fa-brands fa-php"></i> PHP <i class="fa-solid fa-database"></i> SQL <i class="fa-brands fa-html5"></i> HTML <i class="fa-brands fa-css3-alt"></i> CSS <i class="fa-brands fa-bootstrap"></i> Bootstrap </p>
-                <a href="https://productsorter.herokuapp.com/index.php" class="btn btn-dark btn-sm light-gray" target="_blank" role="button">Website link</a>
+                <a href="https://youtu.be/ye_4sV1Dyu8" class="btn btn-dark btn-sm light-gray" target="_blank" role="button">Demo video</a>
                 <a href="https://github.com/VanjaAleksic/Product-sorter" class="btn btn-dark btn-sm light-gray" target="_blank" role="button">Source Code</a>
               </div>
             </div>
