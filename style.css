@@ -10,7 +10,7 @@ html, body{
   height: 100vh;
   margin: auto;
   opacity: 1;
-  background-image: url("Images/landing_page_city.webp");
+  background-image: url("Images/website_vid_15fps.gif");
   top: 0;
   display: table;
   background-size: cover;
@@ -22,11 +22,10 @@ html, body{
   vertical-align: middle;
   width: 100%;
   max-width: none;
-  padding-bottom: 15vh;
 }
 
 a:visited{
-  color:white;
+  color:rgba(255, 255, 255, 0.712);
 }
 
 a:hover{
@@ -103,6 +102,10 @@ h5{
   color: rgb(219, 219, 219) !important;
 }
 
+#name {
+  font-size: 450%;
+}
+
 .border-cst{
   border: 1px solid red;
 }
@@ -165,13 +168,17 @@ h5{
 
 /* If the screen size is 1200px wide or more*/
 @media (min-width: 1200px){
-.modal-xl{
-    --bs-modal-width: 70% !important;
-}
+  .modal-xl{
+      --bs-modal-width: 70% !important;
+  }
+  
 }
 
 /* If the screen size is smaller than 1000px*/
 @media (max-width: 1001px) {
+  #name {
+    font-size: 350%;
+  }
 }
 /* If the screen size is smaller than 1000px*/
 @media (max-width: 1000px) {
@@ -179,11 +186,27 @@ h5{
     height: 40vh !important; 
     width: 40rem !important;
   }
+  #name {
+    font-size: 350%;
+  }
 }
-/* If the screen size is smaller than 600px*/
+/* If the screen size is smaller than 800px*/
+@media (max-width: 800px) {
+  .embed-size-custom{
+    height: 24vh !important; 
+    width: 24rem !important;
+  }
+  #name {
+    font-size: 300%;
+  }
+}
+/* If the screen size is smaller than 500px*/
 @media (max-width: 500px) {
   .embed-size-custom{
     height: 24vh !important; 
     width: 24rem !important;
+  }
+  #name {
+    font-size: 250%;
   }
 }
