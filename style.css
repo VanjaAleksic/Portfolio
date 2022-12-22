@@ -1,0 +1,193 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  background-color: #000000a4 !important;
+}
+
+/* main screen*/
+.b1{
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  opacity: 1;
+  background-image: url("Images/website_vid2.gif");
+  top: 0;
+  display: table;
+  background-size: cover;
+  background-position:center;
+}
+
+
+.in1{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.row>*{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.light-gray{
+  color: rgba(211, 211, 211, 0.87) !important;
+}
+
+img{
+	width: 100%;
+}
+
+.gallery{
+	padding: 0px 0;
+}
+
+.gallery img{
+	padding: 10px;
+	width: 100%;
+	cursor: pointer;
+}
+
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+.modal-content-custom{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  width: 100%;
+  color: white;
+  pointer-events: auto;
+  background-color: white;
+
+}
+
+.modal{
+  --bs-modal-width: 95% !important;
+}
+
+.modal-body-custom{
+  position: relative;
+  flex: 1 1 auto;
+  border: 4px solid #313131;
+}
+
+.content{
+  max-width: 32rem;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.content h1{
+  font-family: 'Century Gothic',sans-serif;
+  color: white;
+  text-shadow: 2px 2px #402E29;
+}
+
+.content h2{
+  font-family: 'Century Gothic',sans-serif;
+  color: white;
+  text-shadow: 2px 2px #402E29;
+}
+
+h5{
+  color: rgb(219, 219, 219) !important;
+}
+
+.border-cst{
+  border: 1px solid red;
+}
+
+.underline{
+  padding-bottom: 1px; 
+  border-bottom: 1px solid; 
+  border-radius: 5%;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+}
+
+.pht{
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+}
+
+.card {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.picture{
+  width: 100%;
+  border: 1px solid #313131;
+}
+
+.picture:hover {
+  opacity: 0.7;
+  transform: scale(1.01);
+  transition: .3s;
+}
+
+.card-title{
+  color:white;
+  font-weight: bold;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.card-text{
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.btn-primary{
+  font-family: 'Century Gothic',sans-serif;
+  background-color: #ffffff !important;
+  color: black !important;
+  border: 2px solid rgb(43, 43, 43) !important;
+}
+
+.embed-size-custom{
+  height: 60vh !important; 
+  width: 60rem !important;
+}
+
+/* If the screen size is 1200px wide or more*/
+@media (min-width: 1200px){
+.modal-xl{
+    --bs-modal-width: 70% !important;
+}
+}
+
+/* If the screen size is smaller than 1000px*/
+@media (max-width: 1001px) {
+  #responsive-text-custom {
+    font-size: 100px;
+  }
+}
+/* If the screen size is smaller than 1000px*/
+@media (max-width: 1000px) {
+  #responsive-text-custom {
+    font-size: 80px;
+  }
+
+  .embed-size-custom{
+    height: 40vh !important; 
+    width: 40rem !important;
+  }
+}
+/* If the screen size is smaller than 600px*/
+@media (max-width: 500px) {
+  #responsive-text-custom {
+    font-size: 65px;
+  }
+
+  .embed-size-custom{
+    height: 20vh !important; 
+    width: 20rem !important;
+  }
+}
