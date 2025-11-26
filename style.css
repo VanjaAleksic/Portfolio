@@ -10,12 +10,25 @@ html, body{
   height: 100vh;
   margin: auto;
   opacity: 1;
-  background-image: url("Images/home2.png");
+  background-image: url("home2.jpg");
   top: 0;
   display: table;
   background-size: cover;
   background-position:center;
 }
+
+.b2{
+  width: 100%;
+  height: 20vh;
+  margin: auto;
+  opacity: .85;
+  background-image: url("privacy.jpg");
+  top: 0;
+  display: table;
+  background-size: cover;
+  background-position:center;
+}
+
 
 .in1{
   display: table-cell;
